@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Add a Video</h1>
+
+<form>
+    <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" ng-model="video.title"></input>
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <textarea class="form-control" ng-model="video.description"></textarea>
+    </div>
+    <input type="button" class="btn btn-primary" value="Save" ng-click="save()"></input>
+</form>
+</body>
+</html>
